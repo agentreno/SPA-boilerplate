@@ -1,10 +1,15 @@
 <!doctype html>
-<html>
+<html ng-app="spaboilerplate">
    <head>
    <title>{% if title %} {{ title }} {% endif %}</title>
    <script src="/static/js/vendor/angular/angular.js"></script>
+   <script src="/static/js/vendor/angular-route/angular-route.js"></script>
+   <script src="/static/js/app.js"></script>
+   <script src="/static/js/routes.js"></script>
    </head>
    <body>
       <h1>Hello World!</h1>
+      <a href="#/test">First page</a>
+      <div ng-view></div>
    </body>
 </html>
