@@ -66,3 +66,6 @@ target/
 
 # Bower
 .bowerrc
+
+# Vendor libraries
+app/static/js/vendor/
